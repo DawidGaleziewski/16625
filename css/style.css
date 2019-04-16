@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #ff4500;
+    flex-basis: 5vh;
+}
+
+.main-section {
+    text-align: center;
+    background-color: #00bfff;
+    flex-basis: 30vh;
+}
+
+.aside-left {
+    text-align: center;
+    background-color: #228b22;
+    flex-basis: 30vh;
+}
+
+.aside-right {
+    text-align: center;
+    background-color: #ffb6c1;
+    flex-basis: 30vh;
+}
+
+.footer {
+    text-align: center;
+    background-color: #9370db;
+    flex-basis: 5vh;
+}
