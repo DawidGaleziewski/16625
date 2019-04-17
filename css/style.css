@@ -64,3 +64,15 @@ body {
         order: 4;
     }
 }
+
+@media(min-width: 992px) {
+    .main-section{
+        flex: 1 60%;
+        min-height: 90vh;
+    }
+
+    .aside-left {
+        flex: 1 20%;
+        order: 0;
+    }
+}
